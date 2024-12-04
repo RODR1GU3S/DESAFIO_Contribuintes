@@ -2,18 +2,17 @@ package entities;
 
 public class Tax {
 
-	public static final double SERVICESTAX = 0.15;
-	public static final double CAPITALTAX = 0.20;
-	public static final double TAXREBATE = 0.30;
+	public static final Double SERVICESTAX = 0.15;
+	public static final Double CAPITALTAX = 0.20;
+	public static final Double TAXREBATE = 0.30;
 
-	private double salaryIncome;
-	private double servicesIncome;
-	private double capitalIncome;
-	private double healthSpending;
-	private double educationSpending;
+	private Double salaryIncome;
+	private Double servicesIncome;
+	private Double capitalIncome;
+	private Double healthSpending;
+	private Double educationSpending;
 
-	public Tax(double salaryIncome, double servicesIncome, double capitalIncome, double healthSpending,
-			double educationSpending) {
+	public Tax(double salaryIncome, double servicesIncome, double capitalIncome, double healthSpending,	double educationSpending) {
 
 		this.salaryIncome = salaryIncome;
 		this.servicesIncome = servicesIncome;
